@@ -46,7 +46,7 @@ You will see an area that looks like this:
     PROGRAM="Hyperic Server"
     
     # What is the Directory to your server installation of HYPERIC
-    AGENT_DIR="/home/hyperic/server-4.5.1/bin/"
+    AGENT_DIR="PATH/TO/HYPERIC"
     
     # Enter the User name for the USER that will Start and Stop HYPERIC
     # THIS CANNOT BE ROOT
@@ -75,7 +75,7 @@ Now that you have varified that the you are in the same directory as the script 
 
 .. code-block:: bash
 
-    sudo cp ./hypericserver /etc/init.d/hypericserver
+    sudo cp ./hypericserver.sh /etc/init.d/hypericserver
 
 Change the ownership of the script in the init.d directory so that it is onwed by \"ROOT\".
 
